@@ -1,0 +1,28 @@
+func: 
+-chế độ vận hành: 5 mode
+=> 5 values = 3 bits
+
+-fans speed: 
++auto
++highspeed
++mediumspeed
++lowspeed
++off
+=> 5 values = 3 bits
+
+-temp: 
++16 - 30
+=> 14 values = 4 bits
+
+-timer:
++on
++off
+=> 2 values = 1 bits
+
+-energySaver: 
++on
++off
+=> 2 values = 1 bits
+
+-lock:
+=> 2 value = 1 bits
