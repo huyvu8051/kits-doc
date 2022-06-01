@@ -1,6 +1,10 @@
-func: 
--chế độ vận hành: 5 mode
-=> 5 values = 3 bits
+funcs: 
+-mode: 
++ auto
++ cold
++ dry
++ warm
+= 4 values => 2 bits
 
 -fans speed: 
 +auto
@@ -8,21 +12,23 @@ func:
 +mediumspeed
 +lowspeed
 +off
-=> 5 values = 3 bits
+= 5 values => 3 bits
 
 -temp: 
 +16 - 30
-=> 14 values = 4 bits
+= 14 values => 4 bits
 
 -timer:
 +on
 +off
-=> 2 values = 1 bits
+= 2 values => 1 bits
 
 -energySaver: 
 +on
 +off
-=> 2 values = 1 bits
+= 2 values => 1 bits
 
 -lock:
-=> 2 value = 1 bits
+= 2 value => 1 bits
+
+===> we need total 12 bits for control (save state) air-conditioner
